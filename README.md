@@ -36,34 +36,35 @@ git clone https://github.com/Atsintli/Interdictum-Prothesium.git
 
 Modelos correspondientes a cada instrumento:    
 
-01_flauta_model_4k
-02_piano_model_5k
-03_guitarra_model_11k
-04_violin_model_4k
-05_cb_model_5k
-06_perc_model_5k
+    • 01_flauta_model_4k
+    • 02_piano_model_5k
+    • 03_guitarra_model_11k
+    • 04_violin_model_4k
+    • 05_cb_model_5k
+    • 06_perc_model_5k
+
 
 Algoritmos de escucha automática:
 
-01_extract_features_OSC_sender_flauta.py &
-02_extract_features_OSC_sender_piano.py &
-03_extract_features_OSC_sender_guitarra.py &
-04_extract_features_OSC_sender_violin.py &
-05_extract_features_OSC_sender_cb.py &
-06_extract_features_OSC_sender_perc.py &
+    • 01_extract_features_OSC_sender_flauta.py &
+    • 02_extract_features_OSC_sender_piano.py &
+    • 03_extract_features_OSC_sender_guitarra.py &
+    • 04_extract_features_OSC_sender_violin.py &
+    • 05_extract_features_OSC_sender_cb.py &
+    • 06_extract_features_OSC_sender_perc.py &
 
 Estos 12 códigos son ejecutados con el código init.bash de la siguiente manera:
 
 1. Abrir la terminal en la carpeta del directorio contenedor y ejecutar:
 
-	source init.bash
+	   source init.bash
 
 Algoritmo de reactividad:
 
-Este algoritmo a su vez carga mediante el archivo get_audios_&_syths_IP.scd  varios sinstetizadores y directorios de con archivos de audio que deben ser redireccionadas hacia la carpetas donde se encuentren los archivos archivos de audio descargados del siguiente link:
+2. Este algoritmo a su vez carga mediante el archivo get_audios_&_syths_IP.scd varios sinstetizadores y directorios con archivos de audio que deben ser redireccionadas hacia las carpetas donde se encuentren los archivos de audio descargados del siguiente link:
 
 https://archive.org/details/clases_interdictos
 
-Abrir con Supercollider y ejecutar (ctrl+enter) todas las lineas de código:
+3. Abrir con Supercollider y ejecutar (ctrl+enter) todas las lineas de código:
 
 osc_sonification_data_reciver.scd
