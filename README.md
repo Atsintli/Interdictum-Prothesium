@@ -22,17 +22,17 @@ Requerimientos:
 
     • Supercollider 3.10 (o posterior)
 
-    • Tensorflow_model_server
+    • Tensorflow_model_server:
 
       apt-get update && apt-get install tensorflow-model-server
 
-    • Pip3: PythonOSC, JSON, Essentia, SoundCard
+    • Pip3: PythonOSC, JSON, Essentia, SoundCard_
 
       pip3 install essentia SoundCard jsonlib install python-osc
 
 Clonar o descargar el repositorio github:
 
-git clone https://github.com/Atsintli/Interdictum-Prothesium.git
+    git clone https://github.com/Atsintli/Interdictum-Prothesium.git
 
 Modelos correspondientes a cada instrumento:    
 
@@ -57,14 +57,14 @@ Estos 12 códigos son ejecutados con el código init.bash de la siguiente manera
 
 1. Abrir la terminal en la carpeta del directorio contenedor y ejecutar:
 
-	   source init.bash
+       source init.bash
 
 Algoritmo de reactividad:
 
 2. Este algoritmo a su vez carga mediante el archivo get_audios_&_syths_IP.scd varios sinstetizadores y directorios con archivos de audio que deben ser redireccionadas hacia las carpetas donde se encuentren los archivos de audio descargados del siguiente link:
 
-https://archive.org/details/clases_interdictos
+       https://archive.org/details/clases_interdictos
 
-3. Abrir con Supercollider y ejecutar (ctrl+enter) todas las lineas de código:
+3. Abrir el siguiente código con Supercollider y ejecutar (ctrl+enter) todas las lineas de código:
 
-osc_sonification_data_reciver.scd
+       osc_sonification_data_reciver.scd
