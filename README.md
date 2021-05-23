@@ -34,7 +34,7 @@ El Sistema de escucha automática para la libre improvisación (SEALI) en la ver
 ### 2. Reubicar modelos y base de datos:
 Reubica en la carpeta principal del repositorio las seis carpetas que contienen los modelos y los directorios con archivos de audio que encontrarás del siguiente link:
 
-       https://archive.org/details/clases_interdictos
+   https://archive.org/details/clases_interdictos
        
 ### Modelos correspondientes a cada instrumento:    
 
