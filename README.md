@@ -20,12 +20,17 @@ El Sistema de escucha automática para la libre improvisación (SEALI) en la ver
     • Supercollider 3.10 (o posterior)
 
     • Tensorflow_model_server:
+    
+      echo "deb [arch=amd64] http://storage.googleapis.com/tensorflow-serving-apt stable tensorflow-model-server tensorflow-model-server-universal" | sudo       tee /etc/apt/sources.list.d/tensorflow-serving.list && \
+      curl https://storage.googleapis.com/tensorflow-serving-apt/tensorflow-serving.release.pub.gpg | sudo apt-key add -
 
       apt-get update && apt-get install tensorflow-model-server
+      
+      apt-get upgrade tensorflow-model-server
 
     • Pip3: PythonOSC, JSON, Essentia, SoundCard_
 
-      pip3 install essentia SoundCard jsonlib install python-osc
+      pip3 install essentia SoundCard jsonlib python-osc
 
 ### 1. Clonar desde la terminal o descargar el repositorio:
 
